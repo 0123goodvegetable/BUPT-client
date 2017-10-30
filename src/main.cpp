@@ -1,10 +1,5 @@
-#include "mainwindow.h"
-
-#include <QtWidgets/QApplication>
+#include <iostream>
 
 int main(int argc, char *argv[]) {
-    QApplication app(argc, argv);
-    MainWindow mainWindow;
-    mainWindow.show();
-    return app.exec();
+    std::cout << "Hello, world!" << std::endl;
 }
